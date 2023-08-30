@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include test_ahmedreda *.css
+recursive-include test_ahmedreda *.csv
+recursive-include test_ahmedreda *.html
+recursive-include test_ahmedreda *.ico
+recursive-include test_ahmedreda *.js
+recursive-include test_ahmedreda *.json
+recursive-include test_ahmedreda *.md
+recursive-include test_ahmedreda *.png
+recursive-include test_ahmedreda *.py
+recursive-include test_ahmedreda *.svg
+recursive-include test_ahmedreda *.txt
+recursive-exclude test_ahmedreda *.pyc
